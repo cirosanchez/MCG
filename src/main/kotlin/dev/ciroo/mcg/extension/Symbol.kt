@@ -1,4 +1,4 @@
-package me.cirosanchez.template.extension
+package dev.ciroo.mcg.extension
 
 enum class Symbol(val symbol: String) {
     BULLET("•"),

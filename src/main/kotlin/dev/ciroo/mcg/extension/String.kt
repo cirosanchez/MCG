@@ -1,15 +1,14 @@
-package me.cirosanchez.template.extension
+package dev.ciroo.mcg.extension
 
-import me.cirosanchez.template.Template
+import dev.ciroo.mcg.MCG
 import net.kyori.adventure.text.Component
-import net.kyori.adventure.text.minimessage.MiniMessage
 import org.bukkit.ChatColor
 import org.bukkit.ChatColor.COLOR_CHAR
 import java.util.regex.Matcher
 import java.util.regex.Pattern
 
 fun String.colorize(): Component {
-    return Template.mm.deserialize(this)
+    return MCG.mm.deserialize(this)
 }
 
 fun String.colorizeLegacy(): String {

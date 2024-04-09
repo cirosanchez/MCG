@@ -3,8 +3,7 @@ plugins {
     id("com.github.johnrengelman.shadow") version("8.1.1")
 }
 
-//TODO: Change group and version.
-group = "me.cirosanchez.template"
+group = "dev.ciroo.mcg"
 version = "1.0-SNAPSHOT"
 
 repositories {

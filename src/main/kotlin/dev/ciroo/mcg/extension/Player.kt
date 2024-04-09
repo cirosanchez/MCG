@@ -1,4 +1,4 @@
-package me.cirosanchez.template.extension
+package dev.ciroo.mcg.extension
 
 import org.bukkit.entity.Player
 

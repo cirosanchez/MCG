@@ -1,4 +1,4 @@
-package me.cirosanchez.blaze.configuration
+package dev.ciroo.mcg.configuration
 
 import org.bukkit.plugin.Plugin
 
